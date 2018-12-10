@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    background: #f1f1f1;
+    text-align: justify;
+}
+.menu {
+    overflow: hidden;
+    background-color: #333;
+}
+.header {
+    padding: 30px;
+    text-align: center;
+    color:black;
+    background-image: url(./3.jpg);
+    font-size: 30px;
+}   
+.menu a {
+    
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.ratakiri {   
+    float: left;
+    width: 75%;
+}
+.ratakanan {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+.box-from{
+    width:40%;
+    min-height:400px;
+    padding:2%;
+    border: 1px solid;
+}
+.box-form input[type=text],
+.box-form input[type=date]{
+    width:30%;
+    height:35px;
+    padding-left:1%;
+    font-size:17px;
+    margin: 1% 0;
+}
+.box-form input[type=submit],
+.box-form input[type=reset] {
+    display: inline-block;
+    background-color:#009900;
+    color:#fff;
+    cursor:pointer;
+    margin: 0% 0% 2% 0;
+}
+
